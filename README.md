@@ -32,8 +32,10 @@ logger.info("foo\nbar")
 which outputs logs like
 
 ```
-20150423T00:00:00+09:00 [INFO] foo\\nbar
+20150423T00:00:00+09:00 [INFO] foo\nbar
 ```
+
+Note that the line feed character is converted into `\n`. 
 
 ## Rails
 
