@@ -7,7 +7,7 @@ class OnelineLogFormatter
   end
 
   def call(severity, time, progname, msg)
-    FORMAT % [format_datetime(time), severity, format_message(msg)]
+    FORMAT % [format_datetime(time), format_severity(severity), format_message(msg)]
   end
 
   private
