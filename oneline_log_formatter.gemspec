@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |gem|
   gem.name          = "oneline_log_formatter"
-  gem.version       = "0.0.1"
+  gem.version       = "0.0.2"
   gem.authors       = ["Naotoshi Seo"]
   gem.email         = ["sonots@gmail.com"]
   gem.description   = %q{A logger formatter to output each log in one line forcely}
